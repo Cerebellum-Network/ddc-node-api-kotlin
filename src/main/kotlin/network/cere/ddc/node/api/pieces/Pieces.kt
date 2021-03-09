@@ -6,6 +6,4 @@ interface Pieces {
     fun save(request: SavePieceRequest) : DdcNodeApiResponse<PieceMetadata>
 
     fun getByKeys(appPubKey: String, userPubKey: String? = null) : DdcNodeApiResponse<List<Piece>>
-
-    fun getByCid(cid: String) : DdcNodeApiResponse<Piece>
 }

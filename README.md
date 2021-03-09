@@ -15,6 +15,6 @@ repositories {
     maven { url = uri("https://jitpack.io") }
 }
 dependencies {
-    api("com.github.cerebellum-network:ddc-node-api-kotlin:1.0.1")
+    api("com.github.cerebellum-network:ddc-node-api-kotlin:1.0.2")
 }
 ```
